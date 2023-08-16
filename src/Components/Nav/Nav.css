@@ -1,0 +1,29 @@
+#nav {
+    display: flex;
+    background: #efefff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+}
+#nav ul {
+    display: flex;
+}
+#nav ul li {
+    list-style: none;
+    font-size: 20px;
+    padding: 0 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#nav ul li .nav-link{
+    text-decoration: none;
+    color: black;
+}
+#nav ul li .nav-link:hover {
+    color: blue;
+}
+#logo {
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}

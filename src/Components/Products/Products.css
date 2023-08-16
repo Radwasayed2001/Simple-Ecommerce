@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+#home {
+    display: flex;
+    flex-direction: column;
+}
+.head {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+#mycard {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+select {
+    width: 300px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px;
+}

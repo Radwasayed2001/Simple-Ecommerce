@@ -1,0 +1,9 @@
+#show {
+    position: absolute;
+    right: 20px;
+    top: 50px;
+}
+#show table, th, td {
+    border: 1px solid;
+    padding: 3px;
+  }

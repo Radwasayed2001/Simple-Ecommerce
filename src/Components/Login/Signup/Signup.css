@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+#signup {
+    display: flex;
+    flex-direction: column;
+    padding: 200px;
+    font-size: 30px;
+    height: 100vh;
+}
+#signup div{
+    padding: 20px;
+}
+#signup input {
+    font-size: 20px;
+    position: absolute;
+    left: 400px;
+    border: 1px solid #bbb;
+    outline: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+}
+#signup input:focus {
+    outline: none;
+    border: solid 2px red;
+}
+#signup #register {
+    align-items: center;
+    width: 300px;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 600px;
+    left: 500px;
+    height: 42px;
+}
+#signup #register:hover {
+    font-size: 29px;
+}
+#signup #showusers {
+    align-items: center;
+    width: 300px;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 600px;
+    left: 900px;
+    height: 42px;
+}
+#signup #showusers:hover {
+    font-size: 29px;
+}
+#signup button:hover {
+    cursor: pointer;
+    background-color: #ddd;
+    color: #222;
+    border: none;
+    border-radius: 2px;
+}

@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+#todo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background: #f53;
+    color: white;
+    padding: 15px;
+}
+#todo .firstSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#todo h1 {
+    font-size: 40px;
+}
+#todo .inputPart input {
+    font-size: 25px;
+    width: 500px;
+}
+#todo button {
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#todo button:hover {
+    font-size: 24px;
+    color: #111;
+    background-color: #bbb;
+}
+#todo .secondSection{
+    position: absolute;
+    left: 0px;
+    top: 144px;
+    color: #000;
+    padding-left: 60px;
+}
+#todo #tasks {
+    background-color: #333;
+    color: white;
+    font-size: 30px;
+    width: 100vw;
+    position: relative;
+    top: 55px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    padding: 10px;
+}
+input:checked + label{
+    text-decoration: line-through;
+}
+#tasks #item {
+    display: flex;
+    flex-direction: row;
+}
+#item input {
+    margin-right: 100px;
+}
+#item label {
+    position: relative;
+    left: 200px;
+}
+#item button {
+    position: absolute;
+    left: 1000px;
+}
+#item .edit {
+    position: absolute;
+    left: 1500px;
+}
+#checkbox {
+    width: 30px;
+}
