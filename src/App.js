@@ -5,6 +5,7 @@ import Login from './Components/Login/Signup/Signup';
 import Todo from './Components/ToDo/Todo';
 import Nav from './Components/Nav/Nav';
 import { Route, Routes } from 'react-router-dom';
+import Form from './Components/Form/Form';
 function App() {
   return (
     <div id='myapp'>
@@ -14,6 +15,7 @@ function App() {
         <Route path='Todo' element={<Todo></Todo>} />
         <Route path='products' element={<Products/>} />
         <Route path='login' element={<Login/>} />
+        <Route path='register' element={<Form></Form>} />
         <Route path='*' element={<h1>Not Found</h1>} />
       </Routes>
     </div>
