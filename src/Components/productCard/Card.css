@@ -3,15 +3,16 @@
     flex-direction: column;
     width: 260px;
     border-radius: 10px;
-    border: 1px solid whitesmoke;
+    border: 1px solid #ffefef;
     align-items: center;
     justify-content: space-between;
     margin: 10px;
-
 }
 #productCard img{
     width: 100%;
     max-height: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 #productCard p {
     padding: 0 10px;
@@ -22,4 +23,16 @@
     justify-content: space-around;
     width: 100%;
     background: #ffefef;
+}
+#productCard button {
+    width: 70%;
+    padding-left:10px;
+    padding-right:10px;
+    background: none;
+    border-radius: 5px;
+    border: 1px solid #ffefef;
+    cursor: pointer;
+    font-weight: bold;
+    color: #bb8b8b;
+    font-size: 25px;
 }

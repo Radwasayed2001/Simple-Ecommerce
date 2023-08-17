@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+#cart {
+    border: 1px solid #eee;
+    margin: 30px;
+    background-color: #fefefe;
+    display: flex;
+    width: 96%;
+    min-height: 150px;
+    max-height: 300px;
+    border-radius: 25px;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+#cart img {
+    height: 100%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+#cart h2 {
+    font-size: 30px;
+
+}
+#cart p {
+    font-size: 15px;
+}
+#cart h3 { 
+    display: flex;
+    font-size: 25px;
+    justify-content: space-between;
+    width: 300px;
+}
+#cart h3 span {
+    text-decoration: line-through;
+    font-weight: 500;
+} 
+#cart button {
+    align-self: center;
+    font-size: 40px;
+    background:none;
+    border: none;
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+}

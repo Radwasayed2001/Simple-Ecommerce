@@ -8,6 +8,7 @@
     background: #f53;
     color: white;
     padding: 15px;
+    margin-top: 60px;
 }
 #todo .firstSection {
     display: flex;

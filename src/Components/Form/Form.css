@@ -1,6 +1,7 @@
 #form {
     padding: 20px;
     display: flex;
+    margin-top: 60px;
 }
 label, input,button {
     font-size: 22px;
